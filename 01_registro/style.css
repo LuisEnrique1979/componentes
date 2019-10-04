@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*modelo de la caja*/
+    font-family: sans-serif;  
+}
+
+main {
+    overflow: hidden; /*investigar*/
+    background: #20292F;
+    color: white;
+}
+
+.texto {
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.texto > h2 {
+    font-weight: lighter;
+}
+
+.texto > p {
+    margin-top: 20px;
+    line-height: 25px; /*espacio de la linea*/
+}
+
+.boton {
+    float: left;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(0, 162, 255, 0.555);
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: white;
+    text-shadow: 2px 2px #20292F;
+}
