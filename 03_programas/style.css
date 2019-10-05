@@ -41,6 +41,12 @@ aside button {
     color: white;
 }
 
+aside button:hover {
+    transform: scale(1.02);
+}
+
+
+
 .programs {
     width: 67%;
     float: left;
@@ -60,4 +66,8 @@ aside button {
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
+}
+
+.programs .item:hover {
+    transform: scale(1.02);
 }
